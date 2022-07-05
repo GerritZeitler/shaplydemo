@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Raleway', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAV HEADER */
+header {
+    display: flex;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    align-items: center;
+    height: 76px;
+    margin: 0 auto;
+    justify-content: space-around;
+    /* margin-top: 1%; */
+
+
+}
+
+nav {
+    display: flex;
+    gap: 5%;
+    flex-grow: 1;
+    justify-content: end;
+    padding-right: 8%;
+}
+
+header h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #333;
+    padding-left: 8%;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #333;
+    font-weight: 300;
+}
+
+/* MAIN */
+
+main {
+    background-image: url(https://colorlibhub.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 100vw;
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    display: inline-block;
+    font-weight: 200;
+    font-size: 25px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 16px;
+    margin-top: 1%;
+    
+}
+
+
+.readmore {
+    border: solid #745cf9;
+    width: 286px;
+    height: 70px;
+    background-color: #745cf9;
+    margin-right: 1%;
+}
+
+.download {
+    border: solid white;
+    width: 286px;
+    height: 70px;
+    opacity: 0.9;
+    margin-left: 1%;
+}
+
+.readmore:hover {
+    border: solid #5234f9;
+    width: 286px;
+    height: 70px;
+    background-color: #5234f9;
+    margin-right: 1%;
+}
+
+.download:hover {
+    border: solid white;
+    opacity: 0.5;
+    width: 286px;
+    height: 70px;
+    margin-left: 1%;
+}
